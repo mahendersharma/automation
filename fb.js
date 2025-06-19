@@ -54,7 +54,8 @@ let elementWaitPromis = page.waitForSelector('input[type="password"]',{visible:t
 return elementWaitPromis;
 }).then(function(){
  // type any element on that page -> selector
- let keyWillBeSendPromise = page.type('input[type="password"]',"mahender@12")
+ let keyWillBeSendPromise = page.type('input[type="password"]',"Apna Password Daal
+                                      ")
  // console.log("Reached google home pages ");
  return keyWillBeSendPromise;
 }).then(function(){
